@@ -1,0 +1,339 @@
+.logo{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 47%;
+    border-radius: 50%;
+    top: 12%;
+}
+.headings{
+  font-family: sofia;
+    position: absolute;
+    left: 28%;
+    color: gold;
+    top: 22%;
+    font-size: 40px;
+}
+.locationSelector{
+  position: absolute;
+    top: 33%;
+    left: 30%;
+}
+.locationDropdown {
+  height: 40px;
+  width: 245px;
+  color: gray;
+  border: none;
+  border-radius: 0px;
+  font-size: 15px;
+  opacity: 0.7;
+  margin-right: 21px;
+  margin-bottom: 25px;
+  float: left;
+}
+
+.restaurantsinput {
+  height: 40px;
+  width: 310px;
+  color: gray;
+  border: none;
+  border-radius: 0px;
+  font-size: 15px;
+  opacity: 0.7;
+  float: left;
+  padding-left: 30px;
+}
+
+.search {
+  position: absolute !important;
+  left: 275px;
+  margin: 2% 0px;
+}
+.container{
+  
+    position: absolute;
+    top: 45%;
+    height: 500px;
+    width: 800px;
+    margin-left: 30px;
+}
+.tileContainer{
+  
+    height: 250px;
+    margin: 2px;
+    
+    border-radius: 50%;
+}
+.images{
+  height: 180px;
+    width: 180px;
+    /* align-content: center; */
+    border-radius: 50%;
+    padding: 0px;
+    align-self: center;
+    margin: 3px;
+    box-shadow: 0 3px 10px gold;
+}
+.tileComponent1{
+     font-family: 'Sofia';
+    color: gold;
+    margin-left: 30px;
+    font-size: 35px;
+}
+.list-group-item{
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    background-color:transparent;
+    border: 1px solid goldenrod;
+    color: gold;
+    text-align: center;
+}
+  @media only screen and (max-width: 600px) {
+    .restaurantsinput {
+      height: 40px;
+      width: 245px;
+      color: gray;
+      border: none;
+      border-radius: 0px;
+      font-size: 15px;
+      opacity: 0.7;
+      float: left;
+    }
+    .logo {
+      text-align: center;
+      font-size: 80px;
+      color: red;
+      background: white;
+      width: 115px;
+      height: 123px;
+      border-radius: 50%;
+      position: absolute;
+      top: 10%;
+      margin-left: 38%;
+      margin-right: 40%;
+    }
+    .locationSelector {
+      position: relative;
+      top: -238px;
+      margin-left: 23.5%;
+      margin-right: 20%;
+      text-align: center;
+    }
+    .search {
+      position: absolute !important;
+      left: 5px;
+      margin: 2% 0px;
+      top: 73px !important;
+    }
+  }
+  
+  @media only screen and (min-width:992px) and (max-width: 1196px) {
+    .logo {
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 47%;
+      border-radius: 50%;
+      top: 14%;
+  }
+  .headings {
+    font-family: sofia;
+    position: absolute;
+    left: 27%;
+    color: gold;
+    top: 24%;
+    font-size: 35px;
+}
+.locationSelector {
+  position: absolute;
+  top: 33%;
+  left: 26%;
+}
+.col-md-6 {
+  width: 33%;
+}
+.tileContainer {
+  height: 250px;
+  text-align: center;
+  margin: 2px;
+  border-radius: 50%;
+}
+.tileComponent1 {
+  font-family: 'Sofia';
+  color: gold;
+  /* margin-left: 21px; */
+  font-size: 25px;
+  text-align: center;
+}
+.images {
+  height: 125px;
+  width: 125px;
+  /* align-content: center; */
+  border-radius: 50%;
+  padding: 0px;
+  align-self: center;
+  margin: 3px;
+  box-shadow: 0 3px 10px gold;
+}
+  }
+  @media only screen and (min-width:800px) and (max-width: 991px) {
+    .logo {
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 47%;
+      border-radius: 50%;
+      top: 15%;
+  }
+  .headings {
+    font-family: sofia;
+    position: absolute;
+    left: 15%;
+    color: gold;
+    top: 25%;
+    font-size: 40px;
+}
+.locationSelector {
+  position: absolute;
+  top: 36%;
+  left: 17%;
+}
+
+.col-sm-6 {
+  width: 26%;
+}
+.tileComponent1 {
+  font-family: 'Sofia';
+  color: gold;
+  margin-left: 10px;
+  font-size: 25px;
+  /* text-align: center; */
+}
+.images {
+  height: 100px;
+  width: 100px;
+  /* align-content: center; */
+  border-radius: 50%;
+  padding: 0px;
+  align-self: center;
+  margin: 3px;
+  box-shadow: 0 3px 10px gold;
+}
+  }
+  @media only screen and (min-width:0px)and (max-width:799px){
+    .logo {
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 47%;
+      border-radius: 50%;
+      top: 15%;
+  }
+  .headings {
+    font-family: sofia;
+    position: absolute;
+    left: 15%;
+    color: gold;
+    top: 24%;
+    font-size: 40px;
+}
+.locationSelector {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+.search {
+  position: absolute !important;
+  left: 6px;
+  margin: 2% 0px;
+  top: 68%;
+}
+.container {
+  position: absolute;
+  top: 63%;
+  height: 500px;
+  width: 800px;
+  margin-left: 30px;
+}
+.col-sm-4 {
+  width: 25.333333%;
+}
+.tileContainer {
+  height: 160px;
+  margin: 2px;
+  border-radius: 50%;
+}
+.tileComponent1 {
+  font-family: 'Sofia';
+  color: gold;
+  margin-left: 13px;
+  font-size: 20px;
+}
+.images {
+  height: 100px;
+  width: 100px;
+  /* align-content: center; */
+  border-radius: 50%;
+  padding: 0px;
+  align-self: center;
+  margin: 3px;
+  box-shadow: 0 3px 10px gold;
+}
+
+  }
+ @media only screen and (max-width:600px){
+   .logo{
+    font-size: 80px;
+    /* color: red; */
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    margin-left: -2%;
+   }
+   .headings {
+    font-family: sofia;
+    position: absolute;
+    left: 7%;
+    color: gold;
+    top: 26%;
+    font-size: 30px;
+}
+.locationSelector {
+  position: relative;
+  margin-left: 2.5%;
+  margin-right: 20%;
+  text-align: center;
+  top: 30%;
+}
+.search {
+  position: absolute !important;
+  left: 5px;
+  margin: 2% 0px;
+  top: 73px !important;
+}
+.container {
+  
+  position: absolute;
+  top: 79.5%;
+  height: 380px;
+  width: 600px;
+  background-color:#323232;
+  margin-left:0px!important
+ 
+}
+.mainimage{
+   background-Image: url('../assets/homepageimg.jpeg') !important;
+    height: 388px!important;
+    background-position: center center !important;
+   /* background-size: cover !important;*/
+    /* position: relative; */
+    width: 100% !important;
+   
+
+}
+ }

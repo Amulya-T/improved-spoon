@@ -1,0 +1,120 @@
+.buttons{
+    position: absolute;
+    left: 67%;
+    top: 2%;
+
+}
+.login{
+   
+    width: 100px;
+    height: 40px;
+    background-color: #323232;
+    color: goldenrod;
+    margin-right: 25px;
+
+}
+.create_account{
+    width: 150px;
+    height: 40px;
+    background-color: #323232;
+    color: goldenrod;
+    margin-right: 25px;
+}
+.userLogin{
+    margin-bottom: 10px;
+    font-family: 'Aref Ruqaa';
+    font-weight: 500;
+    line-height: 1.1;
+    color: gold;
+    text-align: center;
+    margin-top: 20px;
+}
+.field{
+    font-family: 'Sofia';
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 20px;
+}
+.LNfield{
+    font-size: 20px;
+    font-family: 'Sofia';
+    margin-left: 150px;
+    margin-right: 23px;
+}
+.emailfield{
+    font-size: 20px;
+    font-family: sofia;
+    margin-left: 150px;
+    margin-right: 70px;
+
+}
+.pwdfield{
+    font-size: 20px;
+    font-family: sofia;
+    margin-left: 150px;
+    margin-right: 32px;
+}
+.fieldinput{
+    height: 40px;
+    width: 300px;
+    margin-top: 30px;
+    background-color: #323232;
+    color: goldenrod;
+    border-color: goldenrod;
+    border-radius: 10px;
+   
+}
+.signupbtn{
+    height: 40px;
+    background-color: #323232;
+    width: 75px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 335px;
+    margin-top: 65px;
+    margin-right: 25px
+}
+.loginbtn{
+    height: 40px;
+    background-color: #323232;
+    width: 75px;
+    font-size: 15px;
+    text-align: center;
+    
+    margin-top: 65px;
+    margin-right: 25px
+}
+.btn .btn-md .btn-primary .btn-center{
+    background-color: #323232;
+    border-color: gold;
+
+}
+.form-control{
+    background-color: #323232;
+    background-image: none;
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+.userbtn{
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+    background-color: #323232;
+    color: gold;
+}
+@media only screen and (max-width: 925px){
+    .buttons{
+        position: absolute;
+        left: 50%;
+        top: 2%;
+    
+    }
+}
+@media only screen and (max-width: 615px){
+    .buttons{
+        position: absolute;
+        left: 30%;
+        top: 2%;
+    
+    }
+}
